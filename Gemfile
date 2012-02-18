@@ -19,3 +19,6 @@ gem 'yajl-ruby'
 
 # HAML Template language
 gem 'haml'
+
+# Testing with cucumber
+gem 'cucumber'
