@@ -28,3 +28,6 @@ group :assets do
 	gem 'coffee-rails'
 	gem 'uglifier'
 end
+
+# Jquery gogo!
+gem 'jquery-rails'
