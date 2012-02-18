@@ -22,3 +22,9 @@ gem 'haml'
 
 # Testing with cucumber
 gem 'cucumber'
+
+group :assets do
+	gem 'sass-rails'
+	gem 'coffee-rails'
+	gem 'uglifier'
+end
