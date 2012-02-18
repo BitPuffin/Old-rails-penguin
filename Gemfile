@@ -18,7 +18,7 @@ gem 'excon'
 gem 'yajl-ruby'
 
 # HAML Template language
-gem 'haml'
+# gem 'haml' Fuck that shit
 
 # Testing with cucumber
 gem 'cucumber'

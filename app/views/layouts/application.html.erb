@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= header_text %></title>
+		<%= stylesheet_link_tag "application" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
+	</head>
+	<body>
+		<header>
+			<h1><%= header_text %></h1>
+		</header>
+		<%= yield %>
+		<%= image_tag 'ff' %>
+	</body>
+</html>
